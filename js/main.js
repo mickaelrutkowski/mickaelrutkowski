@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Rutkowski Mickael", "Développeur web et Apllication" ,"En formation"],
+      strings: ["Rutkowski Mickael.", "Développeur web Junior.", "En formation."],
       typeSpeed: 100,
       loop: true,
     });
