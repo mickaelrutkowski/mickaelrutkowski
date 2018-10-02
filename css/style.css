@@ -630,11 +630,13 @@ nav ul li a {
 }
 
 #photo {
-  width: 60%;
+  width: 90%;
   height: 90%;
+  background-position: center;
+  background-size: cover;
 }
 #experience {
   background-position: center;
   background-size: cover;
-background-image: url(/home/rutkowski/Musique/ob_015fea_mobile-experience-0.jpg);
+background-image: url(/home/rutkowski/exercices/cv-pro/images/ob_015fea_mobile-experience-0.jpg);
 }
