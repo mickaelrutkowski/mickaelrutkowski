@@ -11,7 +11,7 @@
  */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  
+
 }
 
 /** Width between 768px to 991px
@@ -69,9 +69,9 @@
     display: inline-block;
   }
   /* journal */
-  #journal .journal-block .journal-info {
+  /* #journal .journal-block .journal-info {
     margin-bottom: 30px;
-  }
+  } */
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
@@ -140,9 +140,9 @@
     display: inline-block;
   }
   /* journal */
-  #journal .journal-block .journal-info {
+  /* #journal .journal-block .journal-info {
     margin-bottom: 30px;
-  }
+  } */
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
@@ -211,9 +211,9 @@
     display: inline-block;
   }
   /* journal */
-  #journal .journal-block .journal-info {
+  /* #journal .journal-block .journal-info {
     margin-bottom: 30px;
-  }
+  } */
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
@@ -281,9 +281,9 @@
     margin: 20px;
   }
   /* journal */
-  #journal .journal-block .journal-info {
+  /* #journal .journal-block .journal-info {
     margin-bottom: 30px;
-  }
+  } */
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
@@ -351,9 +351,9 @@
     margin: 20px;
   }
   /* journal */
-  #journal .journal-block .journal-info {
+  /* #journal .journal-block .journal-info {
     margin-bottom: 30px;
-  }
+  } */
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;

@@ -181,7 +181,7 @@ nav {
   background: #fff;
   z-index: 1000;
   width: 100%;
-  padding: 20px;
+  padding: 25px;
   display: none;
   -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
@@ -240,7 +240,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background: url(https://virtualwindow.com/wp-content/uploads/2015/09/DKC-Web-Design-Banner.jpg) repeat scroll center center / cover;
+  background: url(/home/rutkowski/Images/chef-de-produit-web-image-à-la-une.jpg) repeat scroll center center / cover;
   height: 100vh;
   width: 100%;
 }
@@ -260,7 +260,7 @@ nav ul li a {
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: #fff;
+  color: red;
 }
 
 .header-content p {
@@ -280,7 +280,7 @@ nav ul li a {
 
 .header-content .list-social li i {
   color: #fff;
-  font-size: 15px;
+  font-size: 30px;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -296,7 +296,57 @@ nav ul li a {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #292929;
+}
+
+#glow {
+  color: #2eccfa;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #d8d8d8, 0 0 40px #d8d8d8, 0 0 50px #d8d8d8, 0 0 60px #d8d8d8, 0 0 70px #d8d8d8;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #6e6e6e, 0 0 50px #6e6e6e, 0 0 60px #6e6e6e, 0 0 70px #6e6e6e, 0 0 80px #6e6e6e;
+  }
+}
+#zoom {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+}
+#zoom:hover {
+  transform: scale(1.5);
+}
+#log:hover {
+  animation: shake 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  5% { transform: translate(-1px, -2px) rotate(-1deg); }
+  10% { transform: translate(-3px, 0px) rotate(1deg); }
+  15% { transform: translate(3px, 2px) rotate(0deg); }
+  20% { transform: translate(1px, -1px) rotate(1deg); }
+  25% { transform: translate(-1px, 2px) rotate(-1deg); }
+  30% { transform: translate(-3px, 1px) rotate(0deg); }
+  35% { transform: translate(3px, 1px) rotate(-1deg); }
+  40% { transform: translate(-1px, -1px) rotate(1deg); }
+  45% { transform: translate(1px, 2px) rotate(0deg); }
+  50% { transform: translate(1px, -2px) rotate(-1deg); }
+  55% { transform: translate(1px, 1px) rotate(0deg); }
+  60% { transform: translate(-1px, -2px) rotate(-1deg); }
+  65% { transform: translate(-3px, 0px) rotate(1deg); }
+  70% { transform: translate(3px, 1px) rotate(0deg); }
+  75% { transform: translate(1px, -2px) rotate(1deg); }
+  80% { transform: translate(-1px, 1px) rotate(-1deg); }
+  85% { transform: translate(-3px, 2px) rotate(0deg); }
+  90% { transform: translate(3px, 0px) rotate(-1deg); }
+  95% { transform: translate(-1px, -2px) rotate(1deg); }
+  100% { transform: translate(1px, 1px) rotate(0deg); }
+
 }
 
 #about .div-img-bg .about-img img {
@@ -386,6 +436,11 @@ nav ul li a {
   display: none;
 }
 
+#jquery {
+  height: 17%;
+  width: 17%;
+}
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  Portfolio
@@ -450,7 +505,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 /*  Journal
 /*-----------------------------------------------------------------------------------*/
-
+/*
 #journal,  #journal-blog {
   height: auto;
   width: 100%;
@@ -510,7 +565,7 @@ nav ul li a {
   margin: 0;
   font-size: 14px;
   line-height: 24px;
-}
+} */
 
 /*-----------------------------------------------------------------------------------*/
 /*  Contact
